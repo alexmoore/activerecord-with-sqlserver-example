@@ -1,7 +1,6 @@
-adapter: dbi
-dsn: SQLEXPRESS
-host: WIN7\\SQLEXPRESS
-database: MyDatabase
+adapter: sqlserver
+mode: odbc
+dsn: Driver={SQL Server};Server= localhost\\SQLEXPRESS;Database=MyDatabase
 username: MyUser
 password: MyPassword
 
