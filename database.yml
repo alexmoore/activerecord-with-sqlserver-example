@@ -1,6 +1,0 @@
-adapter: sqlserver
-mode: odbc
-dsn: Driver={SQL Server};Server= localhost\\SQLEXPRESS;Database=MyDatabase
-username: MyUser
-password: MyPassword
-
