@@ -1,10 +1,8 @@
-1. Create a database with a Person Table.
+1. Run the CreatePersonTable.sql to add the Person table to your database.
 
-2. Add two columns, Id with IDENTITY, and a Name column.
+2. Edit the database connection properties in Config.rb.
 
-3. Edit the database connection properties in Config.rb.
-
-4. Run PersonFactory.rb and have fun.
+3. Run PersonFactory.rb and have fun.
 
 
 Alex
