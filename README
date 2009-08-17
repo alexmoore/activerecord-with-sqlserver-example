@@ -1,3 +1,10 @@
-I can't seem to get YAML to play nice with some of the connection string stuff so all that stuff goes in the Config module for now.
+1. Create a database with a Person Table.
+
+2. Add two columns, Id with IDENTITY, and a Name column.
+
+3. Edit the database connection properties in Config.rb.
+
+4. Run PersonFactory.rb and have fun.
+
 
 Alex
