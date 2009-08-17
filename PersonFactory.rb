@@ -5,4 +5,4 @@ p.Name = "Alex"
 p.save
 
 
-foreach p in Person.find(:all) do print p.Name
+Person.find(:all).each { |person| puts person.Name }
