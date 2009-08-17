@@ -1,3 +1,3 @@
-So this doesn't work just yet, I will fix it when I get the working example off my other computer.
+I can't seem to get YAML to play nice with some of the connection string stuff so all that stuff goes in the Config module for now.
 
 Alex

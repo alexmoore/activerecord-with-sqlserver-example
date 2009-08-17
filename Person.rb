@@ -1,10 +1,29 @@
-require 'rubygems'
-require 'activerecord'
-require 'yaml'
 
-$db_config = YAML::load(File.open('database.yml'))
-ActiveRecord::Base.establish_connection $db_config
+
+require 'rubygems'
+
+require 'activerecord'
+
+require 'Config'
+
+
+
+ActiveRecord::Base.establish_connection(
+
+  :adapter  => Config::DB_Adapter,
+
+  :mode => Config::DB_Mode,
+
+  :dsn => Config::DB_DSN,
+
+  :username =>  Config::DB_Username,
+
+  :password =>  Config::DB_Password 
+
+)
 
 class Person < ActiveRecord::Base
+  set_primary_key "Id"
+  set_table_name "Person"     
 end
 
